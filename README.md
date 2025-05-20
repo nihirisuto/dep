@@ -8,5 +8,5 @@ git clone --depth 1 https://github.com/nihirisuto/dep.git \
        do echo " *** assets${i}.pk3..."; \
        find dep -name "dep${i}_*" -type f | sort | xargs cat > assets${i}.pk3; \
      done \
-  && rm -rf dep && echo " *** asset files created in $(pwd)"
+  && rm -rf dep && echo " *** files created in $(pwd)"
 ```
