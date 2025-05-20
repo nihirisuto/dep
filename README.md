@@ -1,4 +1,5 @@
 ```
+mkdir base && cd base
 git clone --depth 1 https://github.com/nihirisuto/dep.git \
 	&& cd dep/dep \
 	&& for i in {0..3}; do (echo "working > assets$i.pk3..." \
